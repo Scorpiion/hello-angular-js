@@ -1,0 +1,11 @@
+runtime: static
+ 
+build:
+  - npm-install
+  
+tasks:
+  - name: npm-install
+    runtime: nodejs
+    version: latest
+    cmd: npm install 
+    
